@@ -30,3 +30,31 @@ li a {
 	text-decoration: none;
 	padding-left: 30px;
 }
+
+nav select {
+	display: none;
+	background: transparent;
+	font-family: Raleway;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px 0;
+}
+
+option {
+	color: #000000;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+	nav ul {
+		display: none;
+	}
+	nav select {
+		display: block;
+	}
+}
